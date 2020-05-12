@@ -27,14 +27,21 @@
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>jquery</artifactId>
-			<version>3.4.1</version>
+			<version>3.5.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
-			<version>4.3.1</version>
+			<version>4.4.1-1</version>
 		</dependency>
-		<!-- webjars locator is used by Spring to locate static assets in webjars without having to know the exact version -->
+		<dependency>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>js-cookie</artifactId>
+			<version>3.0.0-beta.0</version>
+		</dependency>
+
+		<!-- webjars locator is used by Spring to locate static assets in webjars 
+			without having to know the exact version -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>webjars-locator-core</artifactId>
@@ -49,6 +56,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
