@@ -1,0 +1,11 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 5569c03521ec7e00a1dc
+            clientSecret: 2bdffc77c335f921493c2c53a4e9d017d60fed60					
